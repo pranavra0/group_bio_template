@@ -30,4 +30,15 @@ function showSection(sectionId) {
         biosSection.style.display = "none";
         visionSection.style.display = "block";
     }
+
+
+}
+
+function toggleMoodboard(id) {
+    var moodboard = document.getElementById(id);
+    if (moodboard.style.display === "none" || moodboard.style.display === "") {
+        moodboard.style.display = "block";
+    } else {
+        moodboard.style.display = "none";
+    }
 }
