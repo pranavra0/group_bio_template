@@ -1,7 +1,7 @@
 /* General page styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #FFAAA6;
     margin: 0;
     padding: 0;
 }
@@ -50,7 +50,7 @@ header nav button:hover {
 
 /* Card styling for individual team bios */
 .card {
-    background: white;
+    background: #FF1744;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 10px;
